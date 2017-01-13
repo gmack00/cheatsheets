@@ -1,5 +1,8 @@
 
 # Emacs Cheatsheet
+Common emacs actions
+
+Credit to [David Cohen/Bob Rogers](http://www.rgrjr.com/emacs/emacs_cheat.html)
 
 ## Files and Buffers
 | Action          | Key Binding |
@@ -84,6 +87,3 @@ Move line down
 | Escape | ESC ESC |
 | Repeat # of times | C-u # [command] |
 | Stop command in progress | C-g |
-
-
-Credit to [David Cohen/Bob Rogers](http://www.rgrjr.com/emacs/emacs_cheat.html)
