@@ -2,6 +2,8 @@
 # Emacs Cheatsheet
 Common emacs actions
 
+Credit to [David Cohen/Bob Rogers](http://www.rgrjr.com/emacs/emacs_cheat.html) & [Fniessen](https://github.com/fniessen/refcard-org-mode)
+
 *Table of Contents*
 - [Files and Buffers](#files_buffers)
 - [Cursor](#cursor)
@@ -12,9 +14,6 @@ Common emacs actions
 - [Cutting and Pasting](#cutting)
 - [Command Management](#command_management)
 - [Org Mode](#org-mode)
-
-
-Credit to [David Cohen/Bob Rogers](http://www.rgrjr.com/emacs/emacs_cheat.html)
 
 ## <a name="files_buffers">Files and Buffers</a>
 | Action          | Key Binding |
@@ -93,3 +92,64 @@ Credit to [David Cohen/Bob Rogers](http://www.rgrjr.com/emacs/emacs_cheat.html)
 | Stop command in progress | C-g |
 
 # <a name="org-mode">Org Mode Cheatsheet</a>
+
+## Document Structure
+Each document should include a header:
+
+```
+#+TITLE:    Emacs Cheatsheet
+#+AUTHOR:   gravidor
+#+EMAIL:    mail@gravidor.com
+
+My document provides...
+```
+
+### Text
+
+**Bold** `*bold*`
+
+_Emphasis_ `/Emphasis/`
+
+`code` `~code~`
+
+## Images
+Inline Picture
+```
+#+caption: [Insert Picture Caption]
+[[file:images/picture1.png]]
+```
+
+## Hyperlinks
+
+External Links
+```
+[[https://google.com][Google]]
+```
+
+Relative Links
+```
+[[../README.md][Home]]
+```
+
+*Inline Anchors*
+
+```
+<<anchor>>
+```
+
+*Internal Cross References*
+
+Links generally point to a headline
+
+```
+[[#links][Links]]
+```
+## ToDo Items
+
+## Dates and Times
+
+## Exporting
+HTML
+```
+C-c C-e h h
+```
