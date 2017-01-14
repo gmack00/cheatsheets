@@ -2,9 +2,21 @@
 # Emacs Cheatsheet
 Common emacs actions
 
+*Table of Contents*
+- [Files and Buffers](#files_buffers)
+- [Cursor](#cursor)
+  - [Movement](#cursor_movment)
+  - [Operations](#cursor_operations)
+- [Searching and Replacing](#searching)
+- [Scrolling and Windows](#scrolling)
+- [Cutting and Pasting](#cutting)
+- [Command Management](#command_management)
+- [Org Mode](#org-mode)
+
+
 Credit to [David Cohen/Bob Rogers](http://www.rgrjr.com/emacs/emacs_cheat.html)
 
-## Files and Buffers
+## <a name="files_buffers">Files and Buffers</a>
 | Action          | Key Binding |
 | ----------------| ---------- |
 | Open file | C-x C-f |
@@ -16,9 +28,9 @@ Credit to [David Cohen/Bob Rogers](http://www.rgrjr.com/emacs/emacs_cheat.html)
 | Export to HTML | C-c C-e h h |
 
 
-## Cursor
+## <a name="cursor">Cursor</a>
 
-### Movement
+### <a name="cursor_movment">Movement</a>
 | Scope | Action          | Key Binding |
 | ------| ----------------| ---------- |
 | Character | Forward | C-f |
@@ -39,12 +51,12 @@ Credit to [David Cohen/Bob Rogers](http://www.rgrjr.com/emacs/emacs_cheat.html)
 | Sentence | Backward | M-a |
 | Sentence | Delete | M-k |
 
-### Operations
+### <a name="cursor_operations>Operations</a>
 | Action          | Key Binding |
 | ----------------| ---------- |
 | Undo/Redo | C-/ |
 
-## Searching and Replacing
+## <a name="searching">Searching and Replacing</a>
 | Action          | Key Binding |
 | ----------------| ---------- |
 | Search forward | C-s |
@@ -54,7 +66,7 @@ Credit to [David Cohen/Bob Rogers](http://www.rgrjr.com/emacs/emacs_cheat.html)
 | Replace string from cursor to end of buffer | M-x [replace string] RET |
 
 
-## Scrolling and Windows
+## <a name="scrolling">Scrolling and Windows</a>
 
 | Action          | Key Binding |
 | ----------------| ---------- |
@@ -65,7 +77,7 @@ Credit to [David Cohen/Bob Rogers](http://www.rgrjr.com/emacs/emacs_cheat.html)
 | Split window horizontally | C-x 3 |
 
 
-## Cutting and Pasting
+## <a name="cutting">Cutting and Pasting</a>
 | Action          | Key Binding |
 | ----------------| ---------- |
 | Start Highlight | C-SPACEBAR |
@@ -73,17 +85,11 @@ Credit to [David Cohen/Bob Rogers](http://www.rgrjr.com/emacs/emacs_cheat.html)
 | Copy            | M-w        |
 | Yank/Paste      | C-y        |
 
-
-Cut
-
-Delete line C-k
-Move line up
-Move line down
-
-
 ## Command Management
 | Action          | Key Binding |
 | ----------------| ---------- |
 | Escape | ESC ESC |
 | Repeat # of times | C-u # [command] |
 | Stop command in progress | C-g |
+
+# <a name="org-mode">Org Mode Cheatsheet</a>
