@@ -25,6 +25,7 @@ Credit to [David Cohen/Bob Rogers](http://www.rgrjr.com/emacs/emacs_cheat.html) 
 | Move to buffer (enter name) | C-x b |
 | List buffers | C-x C-b |
 | Export to HTML | C-c C-e h h |
+| Exit | C-x C-c | 
 
 
 ## <a name="cursor">Cursor</a>
