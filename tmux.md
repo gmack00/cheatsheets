@@ -39,4 +39,3 @@ All these actions begin with `C-b`
 | Action          | Key Binding |
 | ----------------| ---------- |
 | Scroll/copy mode | [ |
-|
